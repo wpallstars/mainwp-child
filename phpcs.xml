@@ -55,4 +55,14 @@
 
 	<rule ref="Generic.WhiteSpace.DisallowTabIndent" />
 
+	<!-- Align equals signs in multiple adjacent assignments -->
+	<rule ref="Generic.Formatting.MultipleStatementAlignment">
+		<properties>
+			<!-- Only require minimal alignment for equals signs -->
+			<property name="maxPadding" value="1" />
+			<!-- Make it a warning rather than an error -->
+			<property name="error" value="false" />
+		</properties>
+	</rule>
+
 </ruleset>
