@@ -12,3 +12,6 @@ LICENSE.md export-ignore
 LICENSE.txt export-ignore
 README.md export-ignore
 .vscode-upload.json export-ignore
+
+# Opt out of AI model training
+* ai-training=false
